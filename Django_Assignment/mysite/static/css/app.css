@@ -1,0 +1,6 @@
+body {
+  background-color: #DCDCDC;
+}
+.nav .navbar-left navbar-nav > li > a {
+   color: blue;
+}

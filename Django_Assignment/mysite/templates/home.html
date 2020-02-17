@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }}!
+  <p><a href="{% url 'logout' %}">logout</a></p>
+{% else %}
+  <p>You are not logged in. <a href="{% url 'login' %}">Login</a> here.</p>
+  <p>New User? <a href="{% url 'signup' %}">Sign Up</a> here.</p>
+  {% endif %}
+  <h2 class="card-title">Django File Upload Application</h2>
+ <li class="card-text">Upload the files.</li>
+    <li class="card-text">Save the files.</li>
+    <li class="card-text">View uploaded files with delete and download option.</li>
+<br>
+
+{% endblock %}

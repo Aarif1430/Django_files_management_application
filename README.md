@@ -54,5 +54,3 @@ Run below commands to generate code coverage in html format. The test cases are 
 The below screenshot shows the reports generated using above command, The code looks into tests folder inside core application and evaluates matrix for code coverage. As you can see in below screenshot for every file a corresponding html file is generated  
 
 ![Code Coverage](https://github.com/Aarif1430/Django_files_management_application/blob/master/media/code_coverage.png)
-
-
